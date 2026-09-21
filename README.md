@@ -23,7 +23,7 @@ GPU acceleration is useful for training. Gated Llama models require account acce
 
 ## Data
 
-The BART notebook uses [WikiLarge on Hugging Face](https://huggingface.co/datasets/bogdancazan/wikilarge-text-simplification). The original lexical-complexity workbook and reader-related data are not distributed. Early cells expect those inputs; inspect their schema and configure `PROJECT_DATA_DIR` before running.
+The BART notebook uses [WikiLarge on Hugging Face](https://huggingface.co/datasets/bogdancazan/wikilarge-text-simplification). The original lexical-complexity TSV files and reader-related data are not distributed. Early cells expect `General Lexicon DHH Annotations.tsv` or `GeneralLexiconLinguisticCharacteristics.tsv`; inspect their schema and configure `PROJECT_DATA_DIR` before running.
 
 Generated files include `prepared_data/dhh_lexicon_clean.csv`, `prepared_data/complexity_dict.pkl`, and `prepared_data/train_auto_sft.jsonl`. Generate these from appropriately sourced inputs. Prepared data and trained checkpoints are ignored by Git.
 
