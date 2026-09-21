@@ -1,0 +1,15 @@
+# Starting environment; not a recovered historical lockfile.
+jupyterlab
+numpy
+pandas
+scipy
+matplotlib
+openpyxl
+nltk
+torch
+transformers
+datasets
+peft
+accelerate
+huggingface-hub
+sentencepiece

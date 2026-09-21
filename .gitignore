@@ -1,0 +1,44 @@
+
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Generated data, models, and training artifacts
+data/
+prepared_data/
+checkpoints/
+checkpoint-*/
+models/
+outputs/
+runs*/
+logs/
+*.safetensors
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.zip
+events.out.tfevents.*
+
+# App dependencies and build output
+node_modules/
+.next/
+.vercel/
+dist/
+build/
+*.tsbuildinfo
